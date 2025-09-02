@@ -18,20 +18,45 @@
     background: #CED5DF;
   }
   .container {
-   width: 400px;
+   width: 80%;
    margin: auto;
    background: #fff;
    padding: 20px;
    border-radius: 10px;
    box-shadow: 0 4px 8px rgba(0, 0, 0,0.1);
   }
-
+ h2 {
+   text-align: center;
+ }
+ label {
+   display: block;
+   margin: 10px 0 5px;
+ }
+ input,select {
+   width: 100%; 
+   padding: 8px;
+   margin-bottom: 15px;
+   border: 1px solid #C39191;
+   border-radius: 5px;
+   box-sizing: border-box;
+ }
   </style>
 </head>
 
 <body>
 <div class="container">
-  ayu
+ <h2>pendaftaran study tour</h2>
+  <form action="" method="get" accept-charset="utf-8">
+    <label for="">Nama Siswa:</label>
+    <input type="text" name="nama" id="">
+    
+    <label for="">Kelas:</label>
+    <select name="kelas" id="">
+    <option value="">X RPL</option>
+    <option value="">XI RPL</option>
+     <option value="">XII RPL</option>
+    </select>
+  </form>
 </div>
 </body>
 </html>
